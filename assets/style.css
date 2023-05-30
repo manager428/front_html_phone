@@ -1,0 +1,348 @@
+body{
+    font-family: 'Times New Romman';
+    /* margin-bottom: 100px; */
+}
+
+/* Navbar Begin */
+.navbar_center a{
+   font-size: 13px;
+   display: inline;
+   margin: 0 5px;
+   text-decoration-line: none;
+   color: black;
+}
+.navbar_active{
+   color: #266d96!important;
+}
+.form_width::placeholder{
+    font-size: 13px;
+}
+.form_go{
+    padding: 5px 8px;
+    background-color:#265e7f;
+    display: inline;
+    color: #fff;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 13px;
+}
+.forgotpassord{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: solid 1px black;
+}
+.becomemember{
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: solid 1px #0A58CA;
+}
+/* Navbar End */
+
+
+/* Banner Begin */
+.banner_img{
+    max-height: 500px;
+    min-height: 250px;
+}
+.banner_read{
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 10px;
+    border:solid 2px #fff;
+    position: absolute;
+    margin-top: -8%;
+    cursor: pointer;
+}
+.banner_read:hover{
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+@media only screen and (max-width: 576px){
+    .banner_read{
+        margin-top: -12%;
+    }
+}
+/* Banner End */
+
+/* Main Begin */
+.card_header{
+    background-color: #85c13f;
+}
+.card_header_xg{
+    font-size: 16px; 
+    font-weight: 600; 
+    color: #fff;
+}
+.card_header_sm{
+    font-size: 14px; 
+    font-weight: 400; 
+    color: #fff;
+}
+.card_image{
+    width: 100px;
+    height: 100px;
+}
+.card_star_check{
+    color: orange;
+}
+.phone_ring{
+    background-color: #85c13f;
+    padding: 12px;
+}
+.feather-phone-call{
+    color: #fff; 
+}
+.message_box{
+    background-color: #f57348;
+    padding: 10px 9px;
+}
+.feather-mail{
+    color: #f57348;
+}
+.message_info{
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 400;
+    background-color: #265e7f;
+}
+.flag_icon{
+    width: 20px;
+    height: 20px;
+}
+.flag_icons{
+    font-weight: 400;
+    font-size: 13px;
+}
+.card_page{
+    border-left: solid 1px rgb(223, 218, 218);
+    border-right: solid 1px rgb(223, 218, 218);
+    border-bottom: solid 3px #85c13f;
+}
+.card_page_warn{
+    border-left: solid 1px rgb(223, 218, 218);
+    border-right: solid 1px rgb(223, 218, 218);
+    border-bottom: solid 3px #f57348;
+}
+.card_header_warn{
+    background-color: #f57348;
+}
+.card_body{
+    font-size: 13px;
+}
+
+/* Right Main Begin */
+.right_card_france{
+    background-color: #fff8a5;
+    border: solid 1px #ded569;
+    padding-bottom: 30px;
+}
+.right_card_france_text{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #265e7f;
+    cursor: pointer;
+}
+.vov_text{
+    color: #faa74c;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.vov_card{
+    border: solid 1px #dad2d2;
+    padding-bottom: 30px;
+}
+.payment_card{
+    background-color: #81cefb;
+    border: solid 1px #1883c1;
+    padding-bottom: 30px;
+}
+.payment_card_text{
+    font-size: 17px;
+    font-weight: 500;
+}
+.on_button{
+    color: #ff6600;
+    font-weight: 700;
+    font-size: 18px;
+    border: solid 1px #ff6600;
+}
+.off_button{
+    font-weight: 700;
+    font-size: 18px;
+    border: solid 1px #ff6600;
+}
+/* End Main Right */
+
+/* Main End */
+
+/* Footer Begin*/
+footer.footer{
+    font-size: 15px;
+    background-color: #265e7f;
+}
+.footer ul li{
+    list-style-type: square;
+    color: #fff;
+    line-height: 24px;
+}
+.feather-email{
+    color: #85c13f;
+}
+.footer_icon{
+    background-color: #85c13f;
+    padding: 10px 6px;
+}
+#toTopBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-color: #85c13f;
+}
+/* Footer ENd*/
+
+
+/* REGISTER                BEGIN */
+.banner_reg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_reg img{
+    vertical-align: top;
+    width: 100%;
+    max-height: 200px;
+}
+.banner_reg_text{
+    position: absolute;
+    color: #fff;
+    font-size: 76px;
+}
+@media only screen and (max-width:576px) {
+    .banner_reg_text{
+        font-size: 32px;
+    }
+}
+.btn-submit{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 15px;
+    background-color: #85c13f;
+}
+.btn-submit:hover{
+    color: #265e7f;
+    box-shadow: 5px #85c13f;
+}
+/* END            REGISTER */
+
+/* BEGIN   CONTACT */
+.contact_email{
+    font-size: 18px;
+    font-weight: 600;
+    color: #6c757d;
+}
+/* END      CONTACT */
+
+
+/* BEGIN SHOP */
+.shop{
+    border: solid 1px #e4e4e4;
+    overflow: hidden;
+    box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+    transition: all 0.3s ease-in-out, color 0s, border-color 0s;
+    cursor: pointer;
+}
+.shop:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 25px 0 rgb(34 41 47 / 25%);
+}
+.shop_header{
+    height: 100px;
+}
+.shop_title{
+   font-size: 18px;
+   font-weight: 600;
+}
+.shop_desc{
+    font-size: 14px;
+    color: #6c757d;
+}
+.shop_price_name{
+    color: #85c13f;
+}
+.shop_price_val{
+    font-weight: 600;
+}
+.shop_quan_name{
+    color: #6c757d;
+}
+.shop_quan{
+    width: 100px;
+    height: 34px;
+    border: solid 1px #6c757d;
+}
+.shop_quan:focus{
+    border: solid 1px #6c757d;
+}
+.shop_quan:hover{
+    border: solid 1px #6c757d;
+}
+.shop_buy{
+    color: #fff;
+    background-color: #85c13f;
+    padding: 10px 30px;
+    border: #faa74c;
+}
+/* END SHOP */
+
+/* BEGIN Details */
+.detail_sumary {
+    font-size: 15px;
+}
+.detail_sumary li{
+    margin: 6px 0px;
+    /* list-style-type: square; */
+}
+.detail_sumary li:before {
+    content: "";
+    background-color: #85c13f;
+    padding: 0px 3px;
+    font-size: 6px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+.detail_desc_header{
+    background-color: #85c13f;
+    padding: 10px 0px;
+}
+.detail_desc_title{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+.detail_username{
+    font-size: 18px;
+    font-weight: 600;
+}
+.detail_user_icon{
+    color: #fff;
+    padding: 15px 20px;
+    background-color: #f57348;
+}
+.detail_user_text{
+    font-size: 15px;
+}
+/* END DETAILS */
